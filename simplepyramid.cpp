@@ -41,3 +41,18 @@ int main(){
     }
 
 } 
+
+//Printing the alphabet simplepyramid
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    char rows;
+  cout << "enter number of rows";
+cin >> rows;
+for(char i='A';i<rows;i++){
+for(char j='A';j<=i;j++){
+cout << i;
+}
+    cout << endl;
+}
+}
